@@ -1,0 +1,138 @@
+@import "../scss/index.scss";
+
+.navbar {
+  height: 5rem;
+}
+
+.navbar-brand {
+  margin-left: 1.5rem;
+}
+
+#search {
+  background-color: rgba(102, 147, 235, 0.8);
+  color: #fff;
+  border-radius: 0.4rem;
+  border-color: transparent;
+  height: 2rem;
+  width: 25rem;
+}
+
+#search::placeholder {
+  color: #fff;
+}
+
+.navbar-end {
+  padding-right: 3rem;
+}
+
+.navbar-item > .control {
+  margin-left: 2rem;
+}
+
+.navbar-item > .control > .icon {
+  height: 2rem;
+}
+
+/* #drop-menu {
+    margin-right: 13rem;
+    
+} */
+
+.search {
+  padding-right: 0;
+  padding-left: 3rem;
+}
+
+.menu {
+  padding: 0;
+}
+
+.dropdown-trigger > .button {
+  border-radius: 0.4rem;
+  height: 2rem;
+  width: 9.5rem;
+  color: #6211b1;
+  border-color: #6211b1;
+}
+
+.button:focus:not(:active) {
+  box-shadow: 0 0 0 0.125em rgba(72, 95, 199, 0.25);
+}
+
+.button:focus {
+  border-color: #6211b1;
+  /* color: #363636; */
+  color: #6211b1;
+}
+
+.user {
+  margin-right: 1rem;
+}
+
+/* .navbar-item>.buttons>.button.is-primary {
+    background-color: rgba(102, 147, 235, 0.8);
+} */
+
+/* Ingresa */
+.navbar-item > .buttons > .button.is-primary {
+  background-color: transparent;
+  color: #6211b1;
+  font-weight: 300;
+  border: none;
+}
+
+.navbar-item > .buttons > .button.is-primary > .fas {
+  margin-right: 0.3rem;
+  color: #6693eb;
+}
+
+.navbar-item > .buttons > .button.is-primary:hover {
+  color: rgba(102, 147, 235, 0.8);
+  border: none;
+}
+
+/* Menú usuario */
+.navbar-item > .buttons > .dropdown > .dropdown-trigger > .button.is-primary {
+  background-color: transparent;
+  color: #6211b1;
+  font-weight: 300;
+  border: none;
+}
+
+.navbar-item
+  > .buttons
+  > .dropdown
+  > .dropdown-trigger
+  > .button.is-primary
+  > .fas {
+  margin-right: 0.3rem;
+  color: #6693eb;
+}
+
+.navbar-item
+  > .buttons
+  > .dropdown
+  > .dropdown-trigger
+  > .button.is-primary:hover {
+  color: rgba(102, 147, 235, 0.8);
+  border: none;
+}
+
+.navbar-item
+  > .buttons
+  > .dropdown
+  > .dropdown-trigger
+  > .button.is-primary:focus:not(:active) {
+  box-shadow: none;
+}
+
+.navbar-item > .buttons > .dropdown > .dropdown-menu > .dropdown-content {
+  width: min-content;
+}
+
+.navbar-item > .buttons > .button.is-link {
+  background-color: #6211b1;
+  border-radius: 0.4rem;
+  height: 2rem;
+  font-size: 0.9rem;
+}

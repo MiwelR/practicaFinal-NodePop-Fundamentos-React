@@ -1,0 +1,64 @@
+@import "../../scss/index.scss";
+
+.products {
+  display: grid;
+  margin: 0 5rem;
+  grid-template-columns: repeat(4, auto);
+  justify-content: center;
+}
+
+.card {
+  width: 20vw;
+  height: fit-content;
+  margin: 0.5rem;
+}
+
+.card > .card-image {
+  text-align: center;
+  padding-top: 0.5rem;
+}
+
+.card-image > .image.is-4by3 {
+  /* height: 1rem; */
+  padding-top: 10rem;
+  /* width: 10rem; */
+}
+
+.card-image > .image > img {
+  object-fit: contain;
+}
+
+.media {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.media-content {
+  width: 100%;
+}
+
+.media-content > .price,
+.media-content > .title {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 1rem;
+}
+
+.media-content > .price {
+  color: #6693eb;
+}
+
+.namecolor {
+  color: #8f9196;
+  font-size: 0.9rem;
+}
+
+.card-content > .content {
+  height: 1.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 0.8rem;
+}

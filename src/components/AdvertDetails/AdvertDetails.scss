@@ -1,0 +1,99 @@
+@import "../../scss/index.scss";
+
+// .color-layer {
+//   background-color: #4b13a7;
+//   color: #fff;
+//   height: 6rem;
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+// }
+
+// .color-layer > .title-head {
+//   font-weight: 300;
+// }
+
+// .details {
+//   display: flex;
+//   justify-content: center;
+//   width: 100vw;
+// }
+
+// .card {
+//   height: fit-content;
+//   margin: 0.5rem;
+//   margin-top: 1rem;
+//   display: grid;
+//   grid-template-columns: 50% 50%;
+//   align-items: center;
+//   width: 70vw;
+// }
+
+// .card > .card-image {
+//   text-align: center;
+//   padding-top: 3rem;
+//   height: 100%;
+//   width: 100%;
+// }
+
+// /* .card-image>.image {
+//     height: 350px;
+// } */
+
+// .card-image > .image > img {
+//   height: 80%;
+//   object-fit: contain;
+// }
+
+// /* .card-content {
+//     width: 50%;
+// } */
+
+// .card-content > .media {
+//   display: flex;
+//   flex-wrap: wrap;
+// }
+
+// .card-content > .media > .media-content {
+//   width: 100%;
+// }
+
+// .title.is-4 {
+//   font-weight: 700;
+//   margin-bottom: 1rem;
+// }
+
+// .title.is-4.description {
+//   font-weight: 400;
+//   margin-bottom: 0.6rem;
+// }
+
+// .subtitle.is-6.state {
+//   font-weight: 300;
+//   width: 100%;
+//   color: #605f60;
+// }
+
+// .title.is-4.price {
+//   font-weight: 700;
+//   width: 100%;
+//   color: #6693eb;
+//   font-size: 2.5rem;
+//   margin-top: 1rem;
+// }
+
+.field.is-grouped {
+  justify-content: center;
+}
+
+.button.is-danger.is-outlined {
+  border-color: transparent;
+  background-color: #d42a81;
+  color: #fff;
+}
+
+.button.is-danger.is-outlined:hover {
+  background-color: transparent;
+  border-color: #d42a81;
+  color: #d42a81;
+}
