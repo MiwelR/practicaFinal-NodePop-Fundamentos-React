@@ -95,6 +95,3 @@ Arrancar el proyecto:
 	npm start
 
 Iniciará la aplicación en modo desarrollo. Sólo hay que ir a la ruta [http://localhost:3000](http://localhost:3000) desde el navegador (con el backend previamente arrancado).
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
